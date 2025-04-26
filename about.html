@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This is Home.html File, renamed as index.html -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <nav>
+        <div class="heading">
+            <h3 id="crms"><a href="#">Campus Recruitment Management System</a></h3>
+            <h3 class="hb"><a href="index.html">Home</a></h3>
+            <h3 class="hb"><a href="register.html">Register</a></h3>
+            <h3 class="hb"><a href="index_old.html">Login</a></h3>
+
+        </div>
+    </nav>
+    <title>Home Page</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .heading {
+
+            background-color: #272766d4;
+            /* color: white; */
+            padding: 24px 1rem;
+            display: block;
+            box-shadow: 0px 7px 15px -1px;
+            /* border-bottom: 3px solid black; */
+        }
+
+
+        .heading h3 a {
+            margin-left: 0rem;
+            text-decoration: none;
+            color: white;
+        }
+
+        .heading h3 a:hover {
+            text-decoration: none;
+            cursor: pointer;
+            color: black;
+        }
+
+        .heading h3 {
+
+            padding: 1rem 11rem;
+            display: inline;
+            text-decoration: none;
+            margin-left: -10rem;
+        }
+
+        .heading .hb {
+            text-decoration: none;
+            font-size: 18px;
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+
+        .container {
+            /* border: 2px solid black; */
+            width: 26%;
+            height: auto;
+            padding: 24px 72px;
+            margin: -28rem 38rem
+        }
+
+        .container-para {
+            width: 35%;
+            height: auto;
+            /* border: 2px solid black; */
+            display: block;
+            margin-top: 71rem;
+            border-radius: 10px;
+            margin-left: 4rem;
+            margin-bottom: 2rem;
+            background-color: #272766d4;
+            /* color: white; */
+            box-shadow: 10px 10px 19px -4px;
+            padding: 5px 10px;
+        }
+
+        .container-para p {
+            padding: 26px 32px;
+            font-size: 16px;
+            /* font-family: 'Times New Roman', Times, serif; */
+            font-weight: 400;
+
+        }
+
+        .container-para a {
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+        }
+
+        #quote {
+            padding: 0px 5px;
+            float: left;
+            margin: 50px -38rem;
+            font-size: 40px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #quote1 {
+            color: orangered;
+
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        img {
+            background-size: cover;
+            width: 50%;
+            border-bottom: white;
+            float: right;
+            margin-top: 3rem;
+            margin-right: 2rem;
+        }
+
+        .footer {
+            margin-top: 6rem;
+            /* border: 2px solid black; */
+            background-color: #272766d4;
+            color: white;
+            margin-bottom: 0.2rem;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .reg {
+            padding: 1rem 85px;
+            margin-top: 7rem;
+            display: inline-block;
+            border-radius: 15px;
+            background-color: #272766d4;
+            /* color: white; */
+            margin-left: 9rem;
+            box-shadow: 6px 7px 15px -1px;
+
+        }
+
+        .reg a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .reg:hover {
+            background-color: black;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+
+
+        .about {
+
+            padding: 10px 20px;
+            margin: 34px 104px;
+            width: 22%;
+            display: block;
+
+        }
+
+        .about b {
+            font-size: 20px;
+        }
+
+        .about p {
+            padding: 2px 0px;
+            margin: 7px 0px;
+            font-weight: bold;
+        }
+
+        .social {
+            display: block;
+            width: 20%;
+            padding: 0px 21px;
+            margin-left: 66rem;
+            margin-top: -85px;
+            margin-bottom: 102px;
+        }
+
+        .heading #crms {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .login input {
+            padding: 13px 11px;
+            margin: 0px 58rem;
+            width: 17%;
+            background-color: #272766d4;
+            border-radius: 10px;
+            box-shadow: 3px 7px 16px -1px;
+            color: white;
+            border: none;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: -1rem;
+
+        }
+
+        .login input:hover {
+            background-color: black;
+            text-decoration: underline;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        /* Add a hover effect if you want */
+        /* .fa:hover {
+            opacity: 0.7;
+        } */
+
+        .fa-facebook:hover {
+            background: #3B5998;
+        }
+
+        .fa-twitter:hover {
+            background: #55ACEE;
+        }
+
+        .fa-instagram:hover {
+            background: #d6249f;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+
+        .fa-linkedin:hover {
+            background: #0A66C2;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            /* background: #3B5998; */
+            color: white;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+            /* background: #55ACEE; */
+            color: white;
+        }
+
+        .fa-instagram {
+            /* background: #d6249f;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, .25); */
+            color: white;
+        }
+
+        .fa-linkedin {
+            /* background: #0A66C2; */
+            color: white;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .social a {
+            margin-top: 0rem;
+            padding: 10px 10px;
+        }
+
+        .policy {
+            display: block;
+            width: 10%;
+            /* border: 2px solid white; */
+            margin-left: 41rem;
+            margin-top: -9rem;
+        }
+
+        .about a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .policy a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .about a:hover {
+            cursor: pointer;
+            color: black;
+
+        }
+
+        .policy a:hover {
+            cursor: pointer;
+           color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="CSS/Image/girl.png" alt="">
+    <div class="container">
+        <div class="quote">
+            <h1 id="quote"><b>Start Finding<br> your Dream<br> job <br> <span id="quote1"> With Us</span></b> </h1>
+
+        </div>
+    </div>
+
+    <div class="container-para">
+        <div class="para">
+            <p><a href="#">Campus Recruitment Management System is a Job Portal which provides an easy way for the
+                    company to
+                    hire candidates and also provides facility to candidate to apply for different jobs.<br>Using this
+                    system students can get their dream jobs !</a></p>
+        </div>
+    </div>
+    <form action="index_old.html" method="post">
+        <div class="login">
+            <input type="submit" name="loginbutton" value="Apply For Job">
+
+        </div>
+    </form>
+    <div class="reg">
+        <a href="#">2K <br>Registered<br> Students</a>
+    </div>
+
+    <div class="reg">
+        <a href="#">1K <br>Students <br>Placed</a>
+    </div>
+
+    <div class="reg">
+        <a href="#">50+ MNC<br>Companies<br>Registered</a>
+
+    </div>
+
+
+
+</body>
+
+
+
+<footer>
+    <div class="footer">
+
+        <div class="about">
+            <p><a href="about.html">About Us</a></p>
+            <p><a href="#">FAQ's</a><br></p>
+            <p><a href="#">Contact Us</a><br></p>
+
+        </div>
+
+        <div class="policy">
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Legal</a></p>
+            <p><a href="index.html">Work With Us</a></p>
+
+        </div>
+
+
+        <div class="social">
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+
+        </div>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,327 @@
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+	<nav class="navbar navbar-fixed-top" id="top-nav">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Campus Recruitment Management System</a>
+			</div>
+			<ul id="list1" class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li class="active"><a href="about.html">About Us</a></li>
+				<li class="active"><a href="index_old.html">Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<style>
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			background-color: #7f7fc6a1;
+		}
+
+		.navbar-brand {
+			font-weight: bold;
+
+		}
+
+		.navbar-brand:hover {
+			color: black;
+		}
+
+		.navbar-nav a {
+			margin-left: 9rem;
+			font-size: 16px;
+			font-weight: bold;
+
+		}
+
+		.navbar-nav a:hover {
+			color: black;
+			background: none;
+		}
+
+		#blist3 {
+			display: inline;
+			/* flex-wrap: wrap; */
+			cursor: pointer;
+			/* margin-top: -10rem; */
+			margin-left: -23rem;
+			font-weight: bold;
+		}
+
+		#col3 {
+			margin-top: 10rem;
+			/* margin-left: 10rem; */
+			font-weight: bold;
+			box-shadow: none;
+		}
+
+
+		.btn {
+			padding: 10px 10px;
+			margin: 12px 10px;
+		}
+
+		p {
+			color: black;
+			margin: 15px 8px;
+		}
+
+
+		h5 #a {
+			color: black;
+		}
+
+		.container {
+
+			margin: 1rem 0rem;
+			width: 50%;
+			height: auto;
+			/* border: 2px solid black; */
+			padding: 5px 35px;
+			border-radius: 21px;
+			box-shadow: 3px 4px 13px 5px;
+			margin-left: 36rem;
+			background-color: #ffffffb8;
+
+		}
+
+		.container h3 {
+			border: none;
+			box-shadow: none;
+			margin-left: 13rem;
+			margin-bottom: -2rem;
+			padding-left: 40px;
+			background-color: #e8e8f5;
+		}
+
+		ol,
+		ul {
+			margin-top: 20px;
+			padding: 15px 20px;
+			width: 40%;
+		}
+
+		.navbar>.container .navbar-brand,
+		.navbar>.container-fluid .navbar-brand {
+			margin-left: -15px;
+			margin: 7px 8px;
+		}
+
+		.input1 {
+			padding: 0px 8px;
+			margin: 3px -10px;
+			margin-bottom: -46px;
+
+		}
+
+		button,
+		input,
+		optgroup,
+		select,
+		textarea {
+			margin: 8px 17rem;
+			padding: 7px 46px;
+			border-radius: 10px;
+			border: none;
+			box-sizing: border-box;
+			box-shadow: 2px 4px 17px 0px;
+			text-align: center;
+		}
+
+		select {
+			padding: 8px 98px;
+		}
+
+		#date {
+			padding: 7px 71px;
+		}
+
+
+		.container-fluid {
+			background-color: #4b4b80;
+			padding-right: 0px;
+			padding-left: 0px;
+			box-shadow: 1px 6px 12px 3px;
+			padding-bottom: 5px;
+			padding-top: 1px;
+		}
+
+		.h3,
+		h3 {
+			font-size: 24px;
+			margin-bottom: -23px;
+			margin-top: 24px;
+			margin-left: 150px;
+			font-weight: 400;
+		}
+
+		.h5,
+		h5 {
+			font-size: 15px;
+			padding: 2px 5px;
+			margin-bottom: 4px;
+		}
+
+		.navbar-nav {
+			float: left;
+			margin: -7px 36px;
+		}
+
+		.ptag {
+			margin-top: 10px;
+			margin-left: 106px;
+		}
+
+		.registerbtn {
+			margin-bottom: 15px;
+			margin-left: 19rem;
+			padding: 9px 85px;
+			background-color: #272766d4;
+			color: white;
+		}
+
+		.ptag a {
+			color: #272766d4;
+		}
+
+		.ptag2 p {
+			border: none;
+			margin: 11px 176px;
+		}
+
+		.ptag2 a {
+			color: #272766d4;
+		}
+
+		b,
+		strong {
+			font-weight: 800;
+			margin-left: 19px;
+		}
+
+		.container-fluid h2 {
+			margin: 0px -42rem;
+			padding: 10px 0px;
+			margin-left: -30rem;
+
+		}
+
+		li {
+			font-size: 15px;
+			font-weight: 700;
+		}
+
+		li a:hover {
+			color: black;
+			text-decoration: none;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class=" container-fluid " id="dash">
+		<h2><b>STUDENT REGISTRATION</b></h2>
+	</div>
+	<form action="student.php" method="POST" enctype="multipart/form-data">
+		<div class="container">
+
+			<h3 class="container" align="center"><b>Personal Details</b></h3><br><br>
+
+			<input type="text" placeholder="Enter Your Name" name="name" required><br>
+
+			<input type="email" placeholder="Enter Your Email" name="email" required></br>
+
+			<input type="date" id="date" name="dob" placeholde="Enter DOB" required><br>
+
+
+			<select name="branch" placeholder="Select Branch">
+				<option label="cse">CSE</option>
+				<option label="it">IT</option>
+				<option label="ece">ECE</option>
+				<option label="mee">MEE</option>
+				<option label="msme">MSME</option>
+				<option label="che">CHE</option>
+			</select><br>
+
+
+			<input type="text" placeholder="Passout Year" name="year" required> </br>
+
+			<input type="decimal" placeholder="Enter Your CGPA" name="cpi" required max="10" min="0"></br>
+
+
+			<input type="decimal" placeholder="Enter 12th Percentage" name="12p" required min="0" max="100"><br>
+
+
+			<input type="decimal" placeholder="Enter 10th Percentage" name="10p" required min="0" max="100"></br>
+
+
+			<input type="password" placeholder="Enter Password" name="pwd" required><br>
+
+			<input type="tel" placeholder="Enter Mob No" name="phone" required> <br>
+
+			<select name="degree" placeholder="Select Degree">
+				<option label="btech">B.Tech</option>
+				<option label="btech">M.Tech</option>
+				<option label="be">B.E</option>
+				<option label="me">M.E</option>
+				<option label="bca">BCA</option>
+				<option label="mca">MCA</option>
+				<option label="msc">MSC</option>
+			</select>
+			<br>
+
+			<p class="ptag">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+			<button type="submit" name="insert" class="registerbtn">Register</button>
+
+			<div class="ptag2">
+				<p>Already have an account? <a href="index_old.html">Login</a>.</p>
+			</div>
+		</div>
+	</form>
+
+
+
+	</div>
+</body>
+<footer>
+	<nav class="navbar navbar-footer" id="bottom-nav" style="width:110%">
+		<div class="container-fluid">
+			<div id="col1">
+				<ul id="blist1">
+					<li><a href='about.html'>About Us</a></li>
+					<li><a href='#'>FAQs</a></li>
+					<li><a href='#'>Contact Us</a></li>
+				</ul>
+			</div>
+
+			<div id="col2">
+				<ul id="blist1">
+					<li><a href='#'>Privacy Policy</a></li>
+					<li><a href='#'>Legal</a></li>
+					<li><a href='#'>Work With Us</a></li>
+				</ul>
+			</div>
+
+			<div id="col3" class="container-fluid">
+
+				<ul id="blist3">
+					<li><i class="fa fa-facebook fa-2x"><a href='#'></a></i></li>
+					<li><i class="fa fa-twitter fa-2x"><a href='#'></a></i></li>
+					<li><i class="fa fa-instagram fa-2x"><a href='#'></a></i></li>
+					<li><i class="fa fa-linkedin fa-2x"><a href='#'></a></i></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</footer>
+
+</html>

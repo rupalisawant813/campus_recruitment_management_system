@@ -1,0 +1,168 @@
+<html>
+
+<head>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+	<nav class="navbar navbar-fixed-top" id="top-nav">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Campus Recruitment System</a>
+			<!-- </div> -->
+			<!-- <ul id="list1" class="home"> -->
+			<div class="btn">
+				<a href="home.html">Home</a>
+			</div>
+			<!-- </ul> -->
+		</div>
+		</div>
+	</nav>
+	<style>
+		.btn {
+			padding: 10px 10px;
+			margin: 12px 10px;
+		}
+
+		p {
+			color: black;
+		}
+
+		h5 #a {
+			color: black;
+		}
+
+		.container {
+			margin: -3rem -61rem;
+			/* width: 60%; */
+			/* border: 2px solid black; */
+			padding: 3px 277px;
+		}
+
+		.h2,
+		h2 {
+			font-size: 30px;
+			margin: 2rem -40rem;
+		}
+
+		ol,
+		ul {
+			margin-top: 16px;
+			margin-bottom: 10px;
+			border: 2px solid black;
+			background-color: #8b8989;
+			padding: 16px 27px;
+			width: 41%;
+		}
+
+		.navbar>.container .navbar-brand,
+		.navbar>.container-fluid .navbar-brand {
+			margin-left: -15px;
+			margin: 7px 8px;
+		}
+
+		.input1 {
+			padding: 0px 8px;
+			margin: 3px -10px;
+			margin-bottom: -46px;
+
+		}
+
+		button,
+		input,
+		optgroup,
+		select,
+		textarea {
+			margin: 8px;
+			padding: 10px 50px;
+			border-radius: 10px;
+			border: none;
+			box-sizing: border-box;
+			box-shadow: 2px 4px 17px 0px;
+		}
+
+		.container-fluid {
+			/* background-color: black; */
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+
+		.h3,
+		h3 {
+			font-size: 24px;
+			margin-bottom: -23px;
+			margin-top: 27px;
+		}
+
+		.h5,
+		h5 {
+			font-size: 15px;
+			padding: 2px 5px;
+			margin-bottom: 4px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class=" container-fluid " id="dash">
+		<h2><b>STUDENT REGISTRATION</b></h2>
+		<form action="student.php" method="POST" enctype="multipart/form-data">
+			<div class="container">
+				<h3>Personal Details</h3>
+				<hr>
+				<div class="input1">
+					<input type="text" placeholder="Enter Your Name" name="name" required="">
+					<br>
+
+					<input type="email" placeholder="Enter Your Email" name="email" required="">
+					<br>
+
+					<input type="date" name="Enter Your DOB" required=""><br>
+
+					<!-- <label for="branch"><b>Branch:</b></label> -->
+					<select name="branch" placeholder="Select">
+						<option label="cse">BCA</option>
+						<option label="it">BSC</option>
+						<option label="ece">BCS</option>
+						<option label="mee">BBACA</option>
+
+					</select>
+					<br>
+					<input type="number" placeholder="Year of Paasing" name="year" required=""><br>
+
+					<input type="decimal" placeholder="Enter CGPA" name="cpi" required max="10" min="0"><br>
+
+					<input type="decimal" placeholder="Enter 12th Percentage" name="12p" required min="0" max="100"><br>
+
+					<input type="decimal" placeholder="Enter 10th Percentage" name="10p" required min="0" max="100"><br>
+
+					<input type="password" placeholder="Enter Password" name="pwd" required=""><br>
+					<input type="text" placeholder="Enter Phone No" name="phone" required=""><br>
+
+
+					<!-- <label for="degree"><b>Course:</b></label> -->
+					<select name="degree" placeholder="Select Course">
+						<option label="btech">BCA</option>
+						<option label="btech">BSC</option>
+						<option label="be">BCS</option>
+						<option label="me">BBACA</option>
+						<option label="bca">BCA</option>
+						<option label="mca">MCA</option>
+						<option label="msc">MSC</option>
+					</select>
+					<hr><br>
+				</div>
+
+				<h5>By creating an account you agree to our <a href="#" id="a">Terms & Privacy</a></h5>
+				<button type="submit" name="insert" class="registerbtn">Register</button>
+			</div>
+		</form>
+
+		<div class="container signin">
+			<h5>Already have an account? <a href="index.html" id="a">Login</a></h5>
+		</div>
+
+	</div>
+</body>
+
+</html>
