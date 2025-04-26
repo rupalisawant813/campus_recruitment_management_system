@@ -1,78 +1,63 @@
-# UNIVERSITY INSTITUTE OF ENGINEERING & TECHNOLOGY C.S.J.M.U. KANPUR
+# Vidya Pratishthan’s Arts, Science & Commerce College Baramati
 
 # Computer Science Department
-
-## CSE-S301 (D.B.M.S.) PROJECT
 
 # CAMPUS RECRUITMENT MANAGEMENT SYSTEM
 
 ##### SUBMITTED BY
 
-##### AKASH VERMA 
+##### Rupali Dilip Sawant
 
-##### CSJMA16001390 004 
+##### Snehal Sanjay Dandel
 
-##### PREETI SAHANI
+##### Swapnali Changdev Gaikwad
 
-##### CSJMA16001390 103
-
-##### (B. TECH CSE 3rd YEAR 2K16)
+##### (BCA 3rd YEAR 2K23)
 
 ##### - SUBMITTED TO-
-##### ER. DEEPAK KUMAR VERMA (CSE-S301 INSTRUCTOR)
+##### Prof. Vinaya Dipak Lale ( INSTRUCTOR)
 
 
 
 ### ABOUT THE PROJECT
 
-The project named “Campus Recruitment Management System”, is a
-student/company information system which is a web-based system. The
-project is developed for Placement cell being presently used in University
-for storing and retrieving the information of students who are registered in
-Placement Cell. The Placement Cell maintains a large database of students
-wherein all the information of students including personal records and the
-academic performance in terms C.P.I. is stored and company information
-including profile of company, eligibility criteria and facilities it provides
-etc. The software retrieves this data and displays as per the user
-requirement.
+Campus Recruitment Management System is a platform that 
+provide interface between student and company. System provides the list 
+of suitable companies to the students, according to their educational 
+qualification, experience and their preferences. 
+System provides the list of eligible students from a pool  according to 
+required skill for vacancy of company. 
+The aim is to provide services to both the Employer and the 
+Graduate by recruiting Graduates according to the employer 
+specifications. The main flow of the project goes as follows.
+ The three main modules involved in this system are:
+ 1. Student
+ 2. Company
+ 3. Admin
 
-The Placement Management System is developed as an attempt to take
-a record of company and students by restricting such a large database to that
-of a particular class of students or company. The system provides the
-facility of viewing both the personal and academic information of the
-student and company. Company can post vacancy and students can apply if
-they are eligible. Company can view the applications and can accept or
-reject them.
-
-The project is to facilitate students in college, company to register and
-communicate with Placement Cell. The users access easily to this and the
-data can be retrieved easily in no time. In the main page there are options
-for Student/Company/Admin login and for registration of new students and
-companies as well. In student registration form, we can give personal
-details, educational qualifications etc. Student can see the information of
-various registered companies and the details of vacancies provided by them
-on their dashboard. They can apply for the job by checking eligibility. In
-Company registration form the companies can give their details and they
-can provide vacancies for different job profiles by vacancy registration
-form. List of applied and eligible students is displayed on their dashboard
-and thus they can accept or reject their application. The administrator can
-execute different queries like details of registered students and companies,
-placed students, job profiles etc. and can delete the records as well.
-
-
+ 4.  By using our website, the college can conduct the 
+placement drive at their campus itself, with appropriate information 
+about the company and their job description about the profile 
+mentioned  by the company.
+                     The system works and fulfils all the functionalities. 
+                     It will provide reduced response time against the 
+queries made by different users. The administrator will have a clear 
+view of  number of vacancies for particular job number of candidates 
+applied an number of candidates selected.
+                    All possible features such as verification, validation, 
+security, user friendliness, etc. have been  considered.
 
 # SPECIFICATIONS
 
 #### Technologies Used:
 
-#### Front-End: HTML, CSS, JavaScript
+####  Development Tool (IDE) :- Visual Studio Code, Xampp
 
-#### Back-End: PHP
+####  Operating System :- Windows, Linux, Mac
 
-#### Database: MySQL
-
-#### Software Stack: WAMP
-
+#### Front-End :- HTML, CSS , JavaScript
+  
+#### Back-End :- PHP, MySQ
 
 
 
